@@ -1,0 +1,134 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #4F46E5;
+  --color-brand-blue: #2563EB;
+  --color-brand-gold: #F59E0B;
+  --color-brand-green: #22C55E;
+  --color-brand-pink: #EC4899;
+  
+  --font-display: 'Plus Jakarta Sans', 'Inter', system-ui, sans-serif;
+  --font-sans: 'Inter', system-ui, sans-serif;
+}
+
+/* Force pure white background globally and disable browser dark mode override */
+html, body, #root {
+  background-color: #FFFFFF !important;
+  color: #334155;
+  color-scheme: light !important;
+  margin: 0;
+  padding: 0;
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FFFFFF;
+}
+::-webkit-scrollbar-thumb {
+  background: #E2E8F0;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #CBD5E1;
+}
+
+/* Playful STEM Grid Background (very soft, subtle) */
+.blueprint-grid {
+  background-size: 35px 35px;
+  background-image: 
+    linear-gradient(to right, rgba(79, 70, 229, 0.02) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(79, 70, 229, 0.02) 1px, transparent 1px);
+}
+
+/* Light Pastel Glowing backdrops */
+.glow-purple {
+  filter: blur(80px);
+  background: radial-gradient(circle, rgba(79, 70, 229, 0.06) 0%, transparent 70%);
+}
+
+.glow-pink {
+  filter: blur(80px);
+  background: radial-gradient(circle, rgba(236, 72, 153, 0.04) 0%, transparent 70%);
+}
+
+.glow-yellow {
+  filter: blur(80px);
+  background: radial-gradient(circle, rgba(245, 158, 11, 0.06) 0%, transparent 70%);
+}
+
+/* Playful floating elements animation */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(1.5deg);
+  }
+}
+
+@keyframes gear-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes arm-wiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(6deg);
+  }
+}
+
+@keyframes lightbulb-glow {
+  0%, 100% {
+    opacity: 0.8;
+    filter: drop-shadow(0 0 2px rgba(245, 158, 11, 0.2));
+  }
+  50% {
+    opacity: 1;
+    filter: drop-shadow(0 0 8px rgba(245, 158, 11, 0.5));
+  }
+}
+
+.animate-float {
+  animation: float 4.5s ease-in-out infinite;
+}
+
+.animate-float-delayed {
+  animation: float 5.5s ease-in-out 1s infinite;
+}
+
+.animate-gear-rotate {
+  animation: gear-rotate 15s linear infinite;
+  transform-origin: center;
+}
+
+.animate-arm-wiggle {
+  animation: arm-wiggle 3.5s ease-in-out infinite;
+  transform-origin: 416px 340px; /* adjusted to joints */
+}
+
+.animate-lightbulb {
+  animation: lightbulb-glow 2.5s ease-in-out infinite;
+}
+
+/* Text highlighted look */
+.highlight-yellow {
+  background-color: #FEFCE8;
+  border-bottom: 2.5px double #F59E0B;
+}
+
+.highlight-pink {
+  background-color: #FDF4FF;
+  border-bottom: 2.5px double #EC4899;
+}
