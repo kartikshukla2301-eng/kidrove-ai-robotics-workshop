@@ -82,7 +82,7 @@ export const RegistrationForm: React.FC = () => {
     setIsLoading(true);
 
     try {
-      const response = await axios.post('http://localhost:5000/api/enquiry', {
+      const response = await axios.post('https://kidrove-ai-robotics-workshop.onrender.com/api/enquiry', {
         studentName: formData.studentName,
         parentEmail: formData.parentEmail,
         parentPhone: formData.parentPhone
