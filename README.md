@@ -173,48 +173,43 @@ The platform delivers a polished, animated, mobile-first user experience built w
 </table>
 
 ---
-
 ## 📸 Screenshots
 
-> 📌 **Setup Instructions:** Place all screenshot images inside the `/assets/screenshots/` directory in your repository root. GitHub will render them automatically in the README.
+> 📌 Place all screenshots inside `assets/screenshots/`
 
-### 🏠 Hero Section
+### 🖥️ Desktop Experience
 
-![Hero Section](./assets/screenshots/hero-section.png)
+<p align="center">
+  <img src="./assets/screenshots/hero-section.png" alt="Hero Section" width="48%">
+  <img src="./assets/screenshots/learning-outcomes.png" alt="Learning Outcomes" width="48%">
+</p>
 
-*The engaging, animated landing page welcoming students and parents to the workshop.*
+<p align="center">
+  <strong>Hero Section</strong> • <strong>Learning Outcomes</strong>
+</p>
 
----
+<br>
 
-### 🎯 Learning Outcomes
+<p align="center">
+  <img src="./assets/screenshots/registration-form.png" alt="Registration Form" width="48%">
+  <img src="./assets/screenshots/success-state.png" alt="Success State" width="48%">
+</p>
 
-![Learning Outcomes](./assets/screenshots/learning-outcomes.png)
+<p align="center">
+  <strong>Registration Form</strong> • <strong>Success State</strong>
+</p>
 
-*A structured overview of what students will achieve through the program.*
+<br>
 
----
+### 📱 Mobile Experience
 
-### 📋 Registration Form
+<p align="center">
+  <img src="./assets/screenshots/mobile-view.png" alt="Mobile View" width="35%">
+</p>
 
-![Registration Form](./assets/screenshots/registration-form.png)
-
-*Clean, validated multi-field enquiry form for parents to register their child.*
-
----
-
-### ✅ Registration Success State
-
-![Success State](./assets/screenshots/success-state.png)
-
-*Animated success confirmation displayed upon successful form submission.*
-
----
-
-### 📱 Mobile View
-
-![Mobile View](./assets/screenshots/mobile-view.png)
-
-*Fully responsive mobile layout — optimized for all screen sizes.*
+<p align="center">
+  <strong>Fully Responsive Mobile Layout</strong>
+</p>
 
 ---
 
