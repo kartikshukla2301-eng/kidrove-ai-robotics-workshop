@@ -2,7 +2,7 @@
 
 <!-- Place your banner image at /assets/banner.png in the repo root and it will render here -->
 <!-- To create a banner: use Canva, Figma, or any design tool. Recommended size: 1280×640px. Save as /assets/banner.png in your repo root. -->
-<img src="./assets/banner.png" alt="Kidrove AI & Robotics Summer Workshop Banner" width="100%" style="border-radius: 12px;" />
+
 
 <br/>
 <br/>
